@@ -1,4 +1,94 @@
+header {
+  background-image: url("./image_cover_header.jpg");
+  background-size: cover;
+  text-align: center;
+}
 h1 {
-  font-size: 55;
+  font-size: 45px;
+  color: black;
+}
+h2 {
+  font-size: 15px;
+  margin-top: -10px;
+  padding-bottom: 30px;
+  color: white;
+}
+h5 {
+  font-size: 20px;
+}
+body {
   font-family: Helvetica;
+  text-align: center;
+}
+img{
+  margin: 0 auto;
+  height: 10 px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#header {
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-size: 20px;
+}
+#header li {
+  display: inline;
+  padding: 0 20px;
+  color: white;
+}
+table.ingredients {
+  text-align: left;
+  margin-left: 60px;
+  float: left;
+  padding-bottom: 40px;
+}
+table.ingredients td {
+  padding: 8px 25px 0 0;
+}
+td.amount {
+  text-align: right;
+}
+p.instructions {
+  padding: 8px 0 0 60px;
+  margin-right: 60px;
+  text-align: justify;
+  line-height: 28px;
+}
+article.course {
+  padding: 100px 0;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 23px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  #header {
+    font-size: 15px;
+    display: block;
+  }
+  table.ingredients {
+    float: none;
+    margin: 0 auto;
+  }
+  table.ingredients td {
+    padding: 3px 25px 0 0;
+  }
+  p.instructions {
+  line-height: 20px;}
+  img {
+    max-width: 100%;
+  }
+}
+@media (min-width: 1300px) {
+  table.ingredients td {
+    padding: 1px 40px 0 0;
+  }
+  p.instructions {
+  line-height: 40px;
+  }
 }
