@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<style> 
+	body {
+		font-family: helvetica; 
+	}
+</style>
+ 
+
+	<body> 
+		<header>Chinese Menu</header> 
+			<ul>
+				<img src="/TOM YUM IMAGE LINK">
+					<li><a> href="#">Starter: Tom Yum Soup</a></li> 
+						<p>RECIPE FOR TOM YUM</p> 
+
+				<img src="/MAIN COURSE PIC">
+					<li><a> href="#">Main Course: .......</a></li>
+						<p>RECIPE FOR MAIN COURSE</p>
+
+				<img src="/DESSERT PIC"
+					<li><a> href="#">Dessert: ......</a></li> 
+						<p>RECIPE FOR DESSERT</p>
+			<ul>
+
+	</body>
+</html>
