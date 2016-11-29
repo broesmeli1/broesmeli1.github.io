@@ -25,6 +25,7 @@ body {
   font-family: Helvetica;
   text-align: center;
   background-color: rgba(240, 219, 172, 0.8);
+  font-weight: lighter;
 }
 img{
   margin: 0 auto;
@@ -54,13 +55,10 @@ table.ingredients {
   text-align: left;
   margin-left: 60px;
   float: left;
-  padding-bottom: 40px;
+  padding-bottom: 260px;
 }
 table.ingredients td {
   padding: 8px 25px 0 0;
-}
-#tiramisu {
-  margin-bottom: 100px;
 }
 td.amount {
   text-align: right;
