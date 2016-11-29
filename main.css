@@ -37,7 +37,7 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: rgba(240, 240, 230, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
 #header {
